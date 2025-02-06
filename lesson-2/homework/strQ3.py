@@ -1,0 +1,5 @@
+txt = input('Enter a text: ').strip()
+length = len(txt)
+upper = txt.upper()
+lower = txt.lower()
+print(f'length: {length}\nUppercase: {upper}\nLowercase: {lower}')
