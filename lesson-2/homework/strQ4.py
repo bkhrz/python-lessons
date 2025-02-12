@@ -1,7 +1,5 @@
 word = input('Enter a word: ').strip()
-word2 = word[::-1]
-
-if word == word2:
+if word == word[::-1]:
     print('It is a palindrome')
 else:
     print('It is not a palindrome')
