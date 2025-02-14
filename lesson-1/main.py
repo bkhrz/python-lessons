@@ -47,6 +47,15 @@ from itertools import count
 # s2 = {"b"}
 # if s2 in s1:
 #     print('s2 is subset of s1')
+#
+# s1 = {"a", "b", 'c'}
+# print(s1.pop())
 
-s1 = {"a", "b", 'c'}
-print(s1.pop())
+for i in range(2,100,1):
+    a = True
+    for j in range(2,i//2+1,1):
+        if i % j == 0:
+            a = False
+            break
+    if a:
+        print(i)
