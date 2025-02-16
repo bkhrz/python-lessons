@@ -4,7 +4,7 @@ def convert_cel_to_far(cel):
 
 def convert_far_to_cel(far):
     """Function to convert Fahrenheit to Celsius"""
-    return round((far-32)*5/9)
+    return round((far-32)*5/9, 2)
 
 try:
     #Fahrenheit to Celsius
