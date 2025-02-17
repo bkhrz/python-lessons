@@ -21,8 +21,7 @@ def mean(val):
 def median(val):
     """Calculates median"""
     val = sorted(val)
-    if len(val)%2 == 0:
-        return val[int(len(val)/2)] + val[int(len(val)/2)-1]
+    if len(val)%2 == 0:        return (val[int(len(val)/2)] + val[int(len(val)/2)-1])/2
     else:
         return val[int(len(val)//2)]
 
