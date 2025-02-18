@@ -69,4 +69,3 @@ from itertools import count
 # rate = float(input("Rate in percent: %")) * (1/100)
 # years = int(input())
 # invest(amount, rate, years)
-
