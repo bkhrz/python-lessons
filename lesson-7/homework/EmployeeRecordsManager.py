@@ -124,7 +124,7 @@ class EmployeeManager:
 
     def run(self):
         while True:
-            print("""1. Add new employee record
+            print("""\n1. Add new employee record
 2. View all employee records
 3. Search for an employee by Employee ID
 4. Update an employee's information
