@@ -8,7 +8,7 @@ except FileNotFoundError:
 
 with open('sample.txt') as file:
     words = file.read().lower().replace(',', '').replace('.', '')\
-        .replace('?', '').replace('!','').replace('\n', '').split()
+        .replace('?', '').replace('!','').replace('\n', ' ').split()
 
 frequency = {}
 for word in words:
