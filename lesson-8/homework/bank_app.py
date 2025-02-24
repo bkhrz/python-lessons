@@ -92,7 +92,12 @@ def main():
         print("4. Withdraw Money")
         print("5. Exit")
 
-        choice = int(input("Enter your choice: "))
+        try:
+            choice = int(input("Enter your choice: "))
+        except ValueError:
+            print('Please, choose a number from 1 to 5')
+            continue
+
         if choice == 1:
             name = input("Enter your name: ")
             try:
